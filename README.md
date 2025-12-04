@@ -1,7 +1,8 @@
 # Pablo Bengoa Guirau - Personal Website
 
 ## 1. Description of the work
-(Plantilla para describir el trabajo)
+
+- In first instance we are gonna add the initial archetype and start with the base of every .html file
 
 ## 2. Problems during development
 (Plantilla para problemas)
