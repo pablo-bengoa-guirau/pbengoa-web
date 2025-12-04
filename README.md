@@ -12,5 +12,5 @@
 
 ## Author
 Name: Pablo Benoga Guirau
-Degree: Computer Science
+Degree: Computer Engineering
 Course: Fundamentals of Computer Engineering
