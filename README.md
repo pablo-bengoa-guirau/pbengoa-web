@@ -5,6 +5,7 @@
 **Student:** Pablo Bengoa Guirau  
 **Repository:** [Link a tu repo público aquí]  
 **Deployed Site:** [Link a tu web publicada en GitHub Pages aquí]
+**Acknowledgments:** Special thanks to **Gemini** for assistance with the README structure and formatting.
 
 ---
 
@@ -40,6 +41,8 @@ To achieve a professional and coherent aesthetic, I defined a Design System usin
     * **Comments:** I added some comments in `index.html` to explain the code better.
     * **README:** I improved and updated the `README.md` structure.
     * **CSS Start:** I started the `style.css` file. I added the typical reset (margin 0, padding 0), defined the color palette and fonts. I also applied the background color and text styles to the body and headers. But there is a lot to imrpove and to update in the css.
+
+---
 
 ## 2. Problems during development
 *(This section serves as a development log. I will update it as I encounter and solve issues).*
