@@ -12,9 +12,6 @@
 ## 1. Description of the work
 The goal of this project is to develop a personal academic website to demonstrate proficiency in HTML5, CSS3, and Version Control. The project follows a structured software development process:
 
-## 1. Description of the work
-The goal of this project is to develop a personal academic website to demonstrate proficiency in HTML5, CSS3, and Version Control. The project follows a structured software development process:
-
 1.  **Design Analysis & Inspiration:** Before writing code, I researched high-profile software engineering portfolios. I selected **Brittany Chiang** (https://brittanychiang.com/) as my primary visual reference. I aimed to replicate her minimalist "Dark Navy" aesthetic and "monospaced" styling for technical details, adapting it to my own code structure to achieve a professional look suitable for the industry.
 2.  **Environment Setup:** I organized the project using a specific directory structure (`docs/` as the root for deployment), separating styles (`css`), assets (`images`), and content pages (`public`).
 3.  **Core Development:** I focused on creating a reusable layout (Header, Navigation, and Footer) to maintain consistency across all pages.
