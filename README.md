@@ -16,6 +16,7 @@ The project follows a structured development process:
 3.  **Core Development:** I focused on creating a reusable layout (Header, Navigation, and Footer) to maintain consistency across all pages.
 4.  **Content Implementation:** Finally, I developed the specific sections required by the assignment (`About`, `Degree`, `Net`, `Contact`) integrating the content with the defined style.
 
+- Update 1: We are putting a basic structure to the website (index.html) to first place the necessary information before starting with the CSS or other subpages.
 
 
 ## 2. Problems during development
