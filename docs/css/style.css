@@ -14,7 +14,7 @@
     --text-secondary: #8892b0;
     
     /* Links y cosas basicas: Turquesa (enlaces y nombre) */
-    --accent-color: #64ffda;
+    --accent-color: #31d1ac;
     
     /* Fuentes de letra*/
     --font-main: 'Calibri', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -27,8 +27,159 @@ body {
     font-family: var(--font-main); /* Tipo de letra */
     
     line-height: 1.6; /* Separacion lineas (mas de lo normal) */
+
+    /* Para conseguir el footer al final */
+    display: flex;             
+    flex-direction: column;    
+    min-height: 100vh;
 }
 
 h1, h2, h3, h4, h5, h6 { /* Color titulos */
     color: var(--text-primary);
+}
+
+/* Parte Header */
+header {
+    background-color: #0a192f;
+    box-shadow: 0 10px 30px -10px #00344c;
+    padding: 0 40px; /* Margen */
+    height: 80px;
+
+    position: sticky; /* Menu estatico */
+    top: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+}
+.header-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand h1 { /* Nombre (h1) */
+    font-size: 1.3rem;
+    font-family: ;
+    font-weight: bold;
+    color: var(--accent-color);
+    margin: 0;
+}
+
+.brand p { /* Grado (p) */
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin: 0;
+    letter-spacing: 1px; 
+}
+
+/* Menu */
+nav { /* Separacion */
+    display: flex; 
+    gap: 22.5px;     
+}
+
+nav a {
+    text-decoration: none; /* Quitar subrayado */
+    color: var(--text-primary);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+nav a:hover { /* Color seleccion */
+    color: var(--accent-color);
+}
+nav a.active { 
+    color: var(--accent-color);
+}
+
+/* Parte Footer */
+footer {
+    background-color: #020c1b;
+    box-shadow: 0 10px 50px 10px #00344c;
+    padding: 30px 0;
+    text-align: center;
+    bottom: 0; /* Al final de la pagina */
+    border-top: 1px solid #1d2d50; /* Línea arriba */
+}
+
+.footer-container p {
+    margin: 8px 0;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.tech-credits {
+    font-size: 0.75rem; 
+    margin-bottom: 15px;
+}
+
+.tech-credits strong {
+    color: var(--accent-color); 
+    font-weight: normal;
+}
+
+.copyright {
+    font-size: 0.8rem;
+    opacity: 0.6; 
+}
+
+/* Parte Main */
+.main-content {
+    width: 100%;
+    max-width: 900px; 
+    margin: 0 auto;
+    padding: 80px 20px; 
+
+    /* Para conseguir el footer al final */
+    flex: 1;
+}
+
+.intro {
+    margin-bottom: 50px; /* Separación */
+}
+
+.intro h2 {
+    font-size: 3rem; /* Título mas grande */
+    color: var(--text-primary);
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.1rem;
+}
+
+.intro strong {
+    color: var(--accent-color);
+}
+
+.project-info h3 {
+    font-size: 1.8rem;
+    color: var(--text-primary);
+    margin-bottom: 30px;
+}
+
+.skills-list {
+    margin-top: 20px;
+    background-color: #112240;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.skills-list p {
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.skills-list p::before {
+    content: "▹";
+    color: var(--accent-color);
+    margin-right: 10px;
 }

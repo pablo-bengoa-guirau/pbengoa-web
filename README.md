@@ -39,14 +39,21 @@ To achieve a professional and coherent aesthetic, I defined a Design System usin
     * **README:** I improved and updated the `README.md` structure.
     * **CSS Start:** I started the `style.css` file. I added the typical reset (margin 0, padding 0), defined the color palette and fonts. I also applied the background color and text styles to the body and headers. But there is a lot to imrpove and to update in the css.
 
+* **Update 3 (Full Design & Layout):**
+    * **Sticky Footer:** I fixed the footer position by applying `min-height: 100vh` to the body and `flex: 1` to the main content, ensuring it always stays at the bottom of the page.
+    * **Header & Nav:** I completed the header styling, aligning my name and the navigation menu horizontally using Flexbox and adding hover effects to the links.
+    * **Main Styling:** I styled the introduction and project info sections, adjusting font sizes and margins for better readability.
+    * **Skills List:** I customized the skills list with a dark background color and specific "monospace" styling to give it a technical look, including custom arrow markers (`▹`).
+
 ---
 
 ## 2. Problems during development
 *(This section serves as a development log. I will update it as I encounter and solve issues).*
 
-### [Date: DD/MM/YYYY] - Issue: Navigation Alignment
-* **Problem:** (Example: The navigation menu items appeared vertically instead of horizontally).
-* **Solution:** (Example: Applied `display: flex` to the navigation container).
+### [06/12/2025] - Issue: Sticky Footer Positioning
+* **Problem:** The footer was not sticking to the bottom of the viewport on pages with little content; instead, it appeared in the middle of the screen immediately after the content ended, leaving empty space below.
+* **Solution:** I applied a Flexbox layout to the `body` element (`display: flex`, `flex-direction: column`, `min-height: 100vh`) to ensure the page always takes up the full height of the screen. Then, I added `flex: 1` to the `.main-content` container to make it expand and push the footer to the bottom.
+
 
 ---
 
