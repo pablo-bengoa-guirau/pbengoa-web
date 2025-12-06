@@ -1,0 +1,34 @@
+* { /* Tipico */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+:root { /* Paleta de colores y fuentes (basico) */
+    /* Fondo: Un azul marino muy oscuro (casi negro) */
+    --bg-color: #0a192f;
+    
+    /* Color Principal: Un blanco (títulos y cosas importantes) */
+    --text-primary: #ccd6f6;
+    
+    /* Color Secundario: Un gris (párrafos largos) */
+    --text-secondary: #8892b0;
+    
+    /* Links y cosas basicas: Turquesa (enlaces y nombre) */
+    --accent-color: #64ffda;
+    
+    /* Fuentes de letra*/
+    --font-main: 'Calibri', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+body {
+    background-color: var(--bg-color); /* Color de fondo */
+
+    color: var(--text-secondary); /* Color texto secundario */
+
+    font-family: var(--font-main); /* Tipo de letra */
+    
+    line-height: 1.6; /* Separacion lineas (mas de lo normal) */
+}
+
+h1, h2, h3, h4, h5, h6 { /* Color titulos */
+    color: var(--text-primary);
+}
