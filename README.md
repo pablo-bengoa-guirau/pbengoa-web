@@ -3,7 +3,7 @@
 ## 1. Description of the work
 
 - In first instance we are gonna add the initial archetype and start with the base of every .html file
-- The next step we are taking is to put the basic structure of index.html, reusing code used in class and some new code (We add the links to other pages, the footer...)
+- We take the base of the html file of our presentation and we impliment a basic structure, in the header incluying a basic text, and most important de basic menu with all the other pages linked. As well we are taking the basic structure of the css of our presentation.
 
 ## 2. Problems during development
 (Plantilla para problemas)
