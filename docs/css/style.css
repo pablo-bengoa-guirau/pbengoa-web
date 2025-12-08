@@ -3,54 +3,63 @@
     padding: 0;
     box-sizing: border-box; 
 }
+
 :root { /* Paleta de colores y fuentes (basico) */
-    /* Fondo: Un azul marino muy oscuro (casi negro) */
+    /* Fondo: */
     --bg-color: #0a192f;
     
-    /* Color Principal: Un blanco (títulos y cosas importantes) */
+    /* Color Principal */
     --text-primary: #ccd6f6;
     
-    /* Color Secundario: Un gris (párrafos largos) */
+    /* Color Secundario */
     --text-secondary: #8892b0;
     
-    /* Links y cosas basicas: Turquesa (enlaces y nombre) */
+    /* Links y cosas basicas */
     --accent-color: #31d1ac;
     
-    /* Fuentes de letra*/
-    --font-main: 'Calibri', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    /* FUENTES DE LETRA */
+    /* La del titulo */
+    --font-principal: "Zalando Sans Expanded", sans-serif;
+    
+    /* La de puntitos */
+    --font-puntos: "Bitcount Grid Double", monospace;
 }
+
 body {
     background-color: var(--bg-color); /* Color de fondo */
-
     color: var(--text-secondary); /* Color texto secundario */
-
-    font-family: var(--font-main); /* Tipo de letra */
     
-    line-height: 1.6; /* Separacion lineas (mas de lo normal) */
-
+    font-family: var(--font-principal);
+    
+    line-height: 1.6; /* Separacion lineas */
+    
     /* Para conseguir el footer al final */
-    display: flex;             
-    flex-direction: column;    
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
 }
 
 h1, h2, h3, h4, h5, h6 { /* Color titulos */
     color: var(--text-primary);
+    font-family: var(--font-principal);
 }
 
 /* Parte Header */
 header {
-    background-color: #0a192f;
+    background-color: #0a182d;
     box-shadow: 0 10px 30px -10px #00344c;
-    padding: 0 40px; /* Margen */
-    height: 80px;
+    padding: 0 40px; 
+    height: 85px;
+    font-family: var(--font-principal);
 
     position: sticky; /* Menu estatico */
     top: 0;
     z-index: 100;
+    
     display: flex;
     align-items: center;
 }
+
 .header-container {
     width: 100%;
     max-width: 1200px;
@@ -61,15 +70,14 @@ header {
     align-items: center;
 }
 
-.brand h1 { /* Nombre (h1) */
+.brand h1 { /* Nombre */
     font-size: 1.3rem;
-    font-family: ;
     font-weight: bold;
     color: var(--accent-color);
     margin: 0;
 }
 
-.brand p { /* Grado (p) */
+.brand p { /* Subtítulo */
     font-size: 0.8rem;
     color: var(--text-secondary);
     margin: 0;
@@ -77,54 +85,25 @@ header {
 }
 
 /* Menu */
-nav { /* Separacion */
+nav { 
     display: flex; 
     gap: 22.5px;     
 }
 
 nav a {
-    text-decoration: none; /* Quitar subrayado */
+    text-decoration: none; 
     color: var(--text-primary);
     font-size: 0.9rem;
     font-weight: 500;
+    transition: color 0.3s;
 }
 
 nav a:hover { /* Color seleccion */
     color: var(--accent-color);
 }
+
 nav a.active { 
     color: var(--accent-color);
-}
-
-/* Parte Footer */
-footer {
-    background-color: #020c1b;
-    box-shadow: 0 10px 50px 10px #00344c;
-    padding: 30px 0;
-    text-align: center;
-    bottom: 0; /* Al final de la pagina */
-    border-top: 1px solid #1d2d50; /* Línea arriba */
-}
-
-.footer-container p {
-    margin: 8px 0;
-    font-size: 0.9rem;
-    color: var(--text-secondary);
-}
-
-.tech-credits {
-    font-size: 0.75rem; 
-    margin-bottom: 15px;
-}
-
-.tech-credits strong {
-    color: var(--accent-color); 
-    font-weight: normal;
-}
-
-.copyright {
-    font-size: 0.8rem;
-    opacity: 0.6; 
 }
 
 /* Parte Main */
@@ -133,18 +112,15 @@ footer {
     max-width: 900px; 
     margin: 0 auto;
     padding: 80px 20px; 
-
-    /* Para conseguir el footer al final */
-    flex: 1;
+    flex: 1; /* Empuja el footer */
 }
 
 .intro {
-    margin-bottom: 50px; /* Separación */
+    margin-bottom: 50px; 
 }
 
 .intro h2 {
-    font-size: 3rem; /* Título mas grande */
-    color: var(--text-primary);
+    font-size: 3rem; 
     line-height: 1.1;
     margin-bottom: 20px;
 }
@@ -159,7 +135,6 @@ footer {
 
 .project-info h3 {
     font-size: 1.8rem;
-    color: var(--text-primary);
     margin-bottom: 30px;
 }
 
@@ -171,10 +146,8 @@ footer {
 }
 
 .skills-list p {
-    font-family: 'Courier New', monospace;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin: 5px 0;
-    display: flex;
     align-items: center;
 }
 
@@ -182,4 +155,37 @@ footer {
     content: "▹";
     color: var(--accent-color);
     margin-right: 10px;
+}
+
+/* Parte Footer */
+footer {
+    background-color: #020c1b;
+    box-shadow: 0 10px 50px 10px #00344c;
+    padding: 30px 0;
+    text-align: center;
+    border-top: 1px solid #1d2d50;
+    font-family: var(--font-principal);
+}
+
+.footer-container p {
+    margin: 8px 0;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+
+.tech-credits {
+    font-size: 0.75rem; 
+    margin-bottom: 15px;
+    font-family: var(--font-puntos) !important;
+}
+
+.tech-credits strong {
+    color: var(--accent-color); 
+    font-weight: normal;
+}
+
+.copyright {
+    font-size: 0.6rem;
+    opacity: 0.6; 
 }

@@ -23,8 +23,11 @@ To achieve a professional and coherent aesthetic, I defined a Design System usin
 * **Color Palette:**
     * **Background:** `#0a192f` (Dark Navy) - Reduces eye strain and provides high contrast.
     * **Typography:** `#ccd6f6` (Lightest Slate) for headings and `#8892b0` (Slate) for body text.
-    * **Accent:** `#64ffda` (Green Teal) - Used for links and interactive elements to guide user attention.
-* **Typography:** Selected a Sans-Serif font stack (`Segoe UI`, `Roboto`) to ensure readability and a modern look across different operating systems.
+    * **Accent:** `#31d1ac` (Bright Teal) - Used for links and interactive elements to guide user attention.
+* **Typography:** I selected a unique font combination to differentiate the portfolio:
+    * **Headings & Navigation:** "Zalando Sans Expanded" for a strong and modern brand presence.
+    * **Body Text:** "Playpen Sans Deva" for readability with a personal touch.
+    * **Technical Details:** "Bitcount Grid Double" (Monospace) to provide a retro-tech aesthetic to specific elements like credits and skills.
 
 ### 1.2 Development Log
 
@@ -45,6 +48,12 @@ To achieve a professional and coherent aesthetic, I defined a Design System usin
     * **Main Styling:** I styled the introduction and project info sections, adjusting font sizes and margins for better readability.
     * **Skills List:** I customized the skills list with a dark background color and specific "monospace" styling to give it a technical look, including custom arrow markers (`▹`).
 
+* **Update 4 (Typography & CSS Refactor):**
+    * **Google Fonts:** I imported new fonts from Google Fonts (Zalando Sans, Playpen Sans, Bitcount Grid) to give the website a unique and better look.
+    * **CSS Reorganization:** I completely reorganized the `style.css` file. I switched to using CSS variables (`:root`) for the fonts to fix the mess of having them hardcoded everywhere. Now it's much cleaner and easier to change.
+    * **Comments:** I added new comments throughout the CSS to explain what each section does.
+    * **Completion:** With these changes, the website aesthetic is now standardized, and the `index.html` is fully finished.
+
 ---
 
 ## 2. Problems during development
@@ -54,6 +63,13 @@ To achieve a professional and coherent aesthetic, I defined a Design System usin
 * **Problem:** The footer was not sticking to the bottom of the viewport on pages with little content; instead, it appeared in the middle of the screen immediately after the content ended, leaving empty space below.
 * **Solution:** I applied a Flexbox layout to the `body` element (`display: flex`, `flex-direction: column`, `min-height: 100vh`) to ensure the page always takes up the full height of the screen. Then, I added `flex: 1` to the `.main-content` container to make it expand and push the footer to the bottom.
 
+### [08/12/2025] - Issue: Skills List Layout
+* **Problem:** The items in the skills summary (Semantic HTML, CSS, Git) were displaying inline without proper vertical spacing, making the text difficult to read.
+* **Solution:** I identified that a `display: flex` property was incorrectly applied to the `.skills-list` container. I removed this property to restore the standard block layout, ensuring each paragraph appears on a new line with the correct spacing. 
+
+### [08/12/2025] - Issue: Font Management Chaos
+* **Problem:** I started adding specific font families manually to each section (header, footer, links...), and the code became very messy. It was difficult to know which font was being used where, and changing them was a nightmare.
+* **Solution:** I optimized the CSS by organizing the typography into variables (`:root`). I created specific variables like `--font-principal` and `--font-puntos`, applied them globally, and removed the hardcoded fonts from individual classes.
 
 ---
 
