@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 { /* Color titulos */
 /* Parte Header */
 header {
     background-color: #0a182d;
-    box-shadow: 0 10px 30px -10px #00344c;
+    box-shadow: 0 7.5px 20px -10px #002f44;
     padding: 0 40px; 
     height: 85px;
     font-family: var(--font-principal);
@@ -100,6 +100,7 @@ nav a {
 
 nav a:hover { /* Color seleccion */
     color: var(--accent-color);
+    text-shadow: 0 0 5px;
 }
 
 nav a.active { 
@@ -116,7 +117,7 @@ nav a.active {
 }
 
 .intro {
-    margin-bottom: 50px; 
+    margin-bottom: 30px; 
 }
 
 .intro h2 {
@@ -135,7 +136,7 @@ nav a.active {
 
 .project-info h3 {
     font-size: 1.8rem;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .skills-list {
@@ -143,6 +144,7 @@ nav a.active {
     background-color: #112240;
     padding: 20px;
     border-radius: 4px;
+    box-shadow: 0 7.5px 20px #002f44;
 }
 
 .skills-list p {
@@ -160,7 +162,7 @@ nav a.active {
 /* Parte Footer */
 footer {
     background-color: #020c1b;
-    box-shadow: 0 10px 50px 10px #00344c;
+    box-shadow: 0 7.5px 20px 10px #002f44;
     padding: 30px 0;
     text-align: center;
     border-top: 1px solid #1d2d50;
