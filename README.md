@@ -60,6 +60,13 @@ To achieve a professional and coherent aesthetic, I defined a Design System usin
     * **Path Configuration:** I configured relative paths (`../`) in the new pages to correctly link back to the CSS and the Home page.
     * **Active States:** I implemented the `active` class in the navigation menu for each page to highlight the user's current location.
 
+* **Update 6 (About Me Page & Asset Organization):**
+    * **Content Strategy:** I developed the `public/about.html` page, focusing on a "human-centric" profile that combines academic goals with personal values, as suggested by the FCE syllabus.
+    * **CSS Refactoring:** I moved away from inline styles to a cleaner class-based approach in `style.css`. I implemented the `.bio-simple` class using Flexbox to align the profile picture and text responsively.
+    * **Asset Management:** I created a new `docs/files/` directory to professionally host static documents like my CV (`cv_pablo.pdf`).
+    * **Interactive Design:** I designed a "Ghost Button" for the resume and a minimalist text-based social media menu. Both elements use a "neon glow" hover effect (using `text-shadow` and `box-shadow`) to maintain consistency with the main navigation bar.
+    * **AI Collaboration:** I worked closely with **Gemini** to brainstorm and finalize semantic class names (such as `.bio-simple` and `.social-simple`), ensuring the code is readable and maintainable.
+
 ---
 
 ## 2. Problems during development
