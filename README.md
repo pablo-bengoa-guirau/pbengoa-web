@@ -67,6 +67,12 @@ To achieve a professional and coherent aesthetic, I defined a Design System usin
     * **Interactive Design:** I designed a "Ghost Button" for the resume and a minimalist text-based social media menu. Both elements use a "neon glow" hover effect (using `text-shadow` and `box-shadow`) to maintain consistency with the main navigation bar.
     * **AI Collaboration:** I worked closely with **Gemini** to brainstorm and finalize semantic class names (such as `.bio-simple` and `.social-simple`), ensuring the code is readable and maintainable.
 
+* **Update 7 (Contact Page Implementation):**
+    * **Academic Compliance:** I developed the `public/contact.html` page strictly following the guidelines from **Unit 4 (HTML)**. Specifically, I implemented the form structure using an **unordered list (`<ul>`)**, as demonstrated in the course slides (Slide 26), ensuring the code adheres to the taught standards.
+    * **Visual Design:** I styled the form using a simplified CSS class (`.form-basic`) to maintain the "Dark Navy" aesthetic. I focused on usability by ensuring high contrast between text and input fields.
+    * **CSS Logic:** To center the submit button without adding extra `div` wrappers, I used the `:last-child` pseudo-selector on the list item, keeping the HTML clean and semantic.
+    * **Functionality:** As per the assignment requirements ("no scripting elements"), the form is purely visual and does not execute backend actions.
+
 ---
 
 ## 2. Problems during development

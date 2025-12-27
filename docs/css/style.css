@@ -244,3 +244,57 @@ footer {
     color: var(--accent-color);
     text-shadow: 0 0 8px var(--accent-color);
 }
+
+/* Parte Contact Me */
+
+.form-basic {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #112240;
+    border-radius: 5px;
+}
+
+.form-basic ul { /* Fuera los puntos de la lista */
+    list-style: none;
+    padding: 0;
+}
+
+.form-basic li:last-child { /* Boton centrado */
+    text-align: center;
+    margin-top: 25px; 
+}
+
+.form-basic li {
+    margin-bottom: 15px;
+}
+
+.form-basic label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--accent-color); 
+}
+
+.form-basic input,
+.form-basic textarea {
+    width: 100%; 
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc; 
+    border-radius: 4px;   
+}
+
+.form-basic button {
+    padding: 10px 20px;
+    background-color: var(--accent-color);
+    color: #0a192f; /* Texto oscuro para contraste */
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.form-basic button:hover { /* Efecto como el del header, iluminación */
+    box-shadow: 0 0 10px var(--accent-color);
+    text-shadow: 0 0 5px var(--accent-color);
+}
