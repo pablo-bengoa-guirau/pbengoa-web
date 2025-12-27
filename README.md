@@ -73,6 +73,11 @@ To achieve a professional and coherent aesthetic, I defined a Design System usin
     * **CSS Logic:** To center the submit button without adding extra `div` wrappers, I used the `:last-child` pseudo-selector on the list item, keeping the HTML clean and semantic.
     * **Functionality:** As per the assignment requirements ("no scripting elements"), the form is purely visual and does not execute backend actions.
 
+* **Update 8 (Network Page Implementation):**
+    * **Connectivity:** I developed the `public/net.html` page to fulfill the requirement of linking to partner pages. I implemented a semantic **HTML Table** to organize the student names and project links clearly.
+    * **Integration:** I successfully integrated valid links to external classmates' repositories, verifying that the `target="_blank"` attribute works correctly to open pages in new tabs.
+    * **Styling:** I applied specific CSS styles (`.partners-table`) to ensure the table matches the dark aesthetic of the site, including hover effects on rows for better user interaction.
+    
 ---
 
 ## 2. Problems during development

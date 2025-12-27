@@ -298,3 +298,52 @@ footer {
     box-shadow: 0 0 10px var(--accent-color);
     text-shadow: 0 0 5px var(--accent-color);
 }
+
+/* Parte Partners */
+
+.partners-container {
+    background-color: #112240; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px -10px rgba(2,12,27,0.7);
+}
+
+.partners-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 400px;
+}
+
+.partners-table thead tr {
+    text-align: left;
+    color: var(--accent-color);
+    font-family: var(--font-puntos);
+    border-bottom: 2px solid #233554;
+}
+
+.partners-table th, 
+.partners-table td {
+    padding: 15px;
+}
+
+.partners-table tbody tr {
+    border-bottom: 1px solid #233554;
+    transition: background-color 0.3s;
+}
+
+
+.partners-table tbody tr:hover {
+    background-color: rgba(49, 209, 172, 0.05); /* Efecto como el del header, iluminación */
+}
+
+.partners-table a {
+    color: var(--text-primary);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.partners-table a:hover {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
