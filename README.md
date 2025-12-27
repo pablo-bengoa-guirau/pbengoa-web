@@ -54,6 +54,12 @@ To achieve a professional and coherent aesthetic, I defined a Design System usin
     * **Comments:** I added new comments throughout the CSS to explain what each section does.
     * **Completion:** With these changes, the website aesthetic is now standardized, and the `index.html` is fully finished.
 
+* **Update 5 (Site Structure Expansion):**
+    * **Subpage Creation:** I created the skeleton files for the main navigation sections (`about.html`, `degree.html`, `net.html`, `topic.html`, `contact.html`) inside the `public/` directory.
+    * **Template Inheritance:** I used the finished `index.html` as a master template to ensure visual consistency (header, footer, fonts) across all pages.
+    * **Path Configuration:** I configured relative paths (`../`) in the new pages to correctly link back to the CSS and the Home page.
+    * **Active States:** I implemented the `active` class in the navigation menu for each page to highlight the user's current location.
+
 ---
 
 ## 2. Problems during development
