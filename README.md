@@ -78,6 +78,10 @@ To achieve a professional and coherent aesthetic, I defined a Design System usin
     * **Integration:** I successfully integrated valid links to external classmates' repositories, verifying that the `target="_blank"` attribute works correctly to open pages in new tabs.
     * **Styling:** I applied specific CSS styles (`.partners-table`) to ensure the table matches the dark aesthetic of the site, including hover effects on rows for better user interaction.
     
+* **Update 9 (Topic Page Implementation):**
+    * **Content Integration:** I developed the `public/topic.html` page focusing on **Ethical Hacking for SMEs**. I utilized Gemini AI to summarize and structure the extensive PDF report into a concise web format, ensuring the technical accuracy of the "Prevention, Detection, and Response" cycle.
+    * **Code Efficiency:** To adhere to "Clean Code" principles, I avoided creating redundant CSS. I intelligently **reused** existing classes like `.partners-table` and `.skills-list` to style the vocabulary tables and technical lists, ensuring visual consistency across the website.
+    * **Attribution:** I included proper credits to the original authors (Group 5) and the AI assistance for the summary, fulfilling the academic integrity requirements of the project[cite: 5, 26].
 ---
 
 ## 2. Problems during development

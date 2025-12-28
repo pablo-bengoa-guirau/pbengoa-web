@@ -179,7 +179,7 @@ footer {
 .tech-credits {
     font-size: 0.75rem; 
     margin-bottom: 15px;
-    font-family: var(--font-puntos) !important;
+    font-family: var(--font-puntos);
 }
 
 .tech-credits strong {
