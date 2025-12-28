@@ -3,8 +3,8 @@
 **Degree:** Computer Engineering (UFV)  
 **Course:** Fundamentals of Computer Engineering (2025/26)  
 **Student:** Pablo Bengoa Guirau  
-**Repository:** [Link a tu repo público aquí]  
-**Deployed Site:** [Link a tu web publicada en GitHub Pages aquí]  
+**Repository:** https://github.com/pablo-bengoa-guirau/pbengoa-web
+**Deployed Site:** https://pablo-bengoa-guirau.github.io/pbengoa-web
 **Acknowledgments:** Special thanks to **Gemini** for assistance with the README structure and formatting.
 
 ---
