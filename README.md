@@ -82,6 +82,12 @@ To achieve a professional and coherent aesthetic, I defined a Design System usin
     * **Content Integration:** I developed the `public/topic.html` page focusing on **Ethical Hacking for SMEs**. I utilized Gemini AI to summarize and structure the extensive PDF report into a concise web format, ensuring the technical accuracy of the "Prevention, Detection, and Response" cycle.
     * **Code Efficiency:** To adhere to "Clean Code" principles, I avoided creating redundant CSS. I intelligently **reused** existing classes like `.partners-table` and `.skills-list` to style the vocabulary tables and technical lists, ensuring visual consistency across the website.
     * **Attribution:** I included proper credits to the original authors (Group 5) and the AI assistance for the summary, fulfilling the academic integrity requirements of the project[cite: 5, 26].
+
+* **Update 10 (Degree & FCE Implementation):**
+    * **Curriculum Mapping:** I completed the `public/degree.html` page, organizing the full 4-year curriculum into semantic tables. I corrected the semester numbering (1-2 per year) to reflect the university structure accurately.
+    * **Subject Deep Dive:** I developed a dedicated page (`public/fce.html`) for *Fundamentals of Computer Engineering*. I analyzed the 10 course units and structured them into 5 distinct modules (Context, Core, Data, Software Dev, and Web Programming) to demonstrate a complete understanding of the syllabus.
+    * **Visual Consistency:** I reused the `.partners-table` and `.skills-list` classes to ensure the academic content matches the dark, professional aesthetic established in previous updates, maintaining code maintainability.
+
 ---
 
 ## 2. Problems during development
