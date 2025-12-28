@@ -88,6 +88,11 @@ To achieve a professional and coherent aesthetic, I defined a Design System usin
     * **Subject Deep Dive:** I developed a dedicated page (`public/fce.html`) for *Fundamentals of Computer Engineering*. I analyzed the 10 course units and structured them into 5 distinct modules (Context, Core, Data, Software Dev, and Web Programming) to demonstrate a complete understanding of the syllabus.
     * **Visual Consistency:** I reused the `.partners-table` and `.skills-list` classes to ensure the academic content matches the dark, professional aesthetic established in previous updates, maintaining code maintainability.
 
+* **Update 11 (Personal Branding & Final Polish):**
+    * **About Me Refinement:** I revamped `public/about.html` to include a specific section on **Resilience & Discipline**.
+    * **Visual Storytelling:** I integrated images from my **Camino de Santiago** experience (150km in 7 days). This addition serves to visually demonstrate core soft skills—persistence and mental endurance—connecting my physical achievements with my engineering mindset.
+    * **Layout Refinement:** Fine-tuned the image distribution in the `about.html` section to maintain visual balance between the profile picture and the new gallery, ensuring correct alignment.
+
 ---
 
 ## 2. Problems during development
@@ -105,10 +110,22 @@ To achieve a professional and coherent aesthetic, I defined a Design System usin
 * **Problem:** I started adding specific font families manually to each section (header, footer, links...), and the code became very messy. It was difficult to know which font was being used where, and changing them was a nightmare.
 * **Solution:** I optimized the CSS by organizing the typography into variables (`:root`). I created specific variables like `--font-principal` and `--font-puntos`, applied them globally, and removed the hardcoded fonts from individual classes.
 
+### [28/12/2025] - Issue: Image Layout & Alignment
+* **Problem:** When adding the new personal images (Camino & Sports) to the `about.html` page, they stacked vertically or broke the text flow, creating an unbalanced and messy layout compared to the "Bio" section.
+* **Solution:** I implemented a nested Flexbox structure. I grouped the profile picture and the new gallery into a single left-column container with a specific width.
+
 ---
 
 ## 3. Conclusions
-*(To be filled upon project completion)*
 
-* **Learning Outcomes:** (What did you learn about Git? About structuring HTML? About the Box Model?)
-* **Future Improvements:** (If you had more time, what would you add? JS animations? A backend?)
+This project has been a comprehensive journey into the foundations of web development and software engineering. Beyond simply writing code, I have learned to:
+
+* **Learning Outcomes:**
+    * **Git Workflow:** I moved from understanding Git as simple storage to using it as a professional development tool. I learned the importance of "atomic commits" to document the history of changes rather than just saving the final result.
+    * **Semantic Structure:** I learned that HTML is about meaning, not just display. Using proper tags (`<section>`, `<table>` for data, `<footer>`) creates a structure that is accessible and easier to maintain.
+    * **CSS Architecture:** By using CSS Variables (`:root`) and the Box Model, I created a consistent "Dark Mode" design system.
+    * **Holistic Engineering:** The website successfully connects technical subjects (FCE, Coding) with personal growth and soft skills, reflecting the university's human-centric approach.
+
+* **Future Improvements:**
+    * **Backend Integration:** If I had more time, I would implement a server-side script to make the contact form fully functional for real email submissions.
+    * **JavaScript Interactivity:** I would add JavaScript to create a dynamic menu for better mobile navigation and smooth scrolling effects between sections.
